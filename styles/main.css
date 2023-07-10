@@ -81,3 +81,10 @@ img.next-image {
 .nav-line .nav-link {
   color: #69778c;
 }
+
+.logo-div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
