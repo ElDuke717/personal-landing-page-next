@@ -4,10 +4,49 @@ title: Nick Huemmer
 date: 2023-07-23
 ---
 
+import Image from 'next/image'
+
+<Image
+  src="/images/lo--2.jpg"
+  alt="photo of nick huemmer"
+  width={550}
+  height={350}
+  priority
+  className="next-image"
+/>
+
+
 I'm a Software Engineer with a focus on frontend and fullstack development. 
 
 I use JavaScript, React, HTML5, CSS, Node.js, Express.js, Next.js, Astro, SvelteKit, and TypeScript for my work.  I also have experience
 contributing to several open source projects including Reactime, a performance monitoring tool for React applications.
+
+<div class='logo-div'>
+    <Image
+      src="/logos/reactime_20.png"
+      alt="reactime 20 logo"
+      width={150}
+      height={150}
+      priority
+      className="next-image logo"
+    />
+    <Image
+      src="/logos/goal_keeper.png"
+      alt="goalkeeper logo"
+      width={150}
+      height={150}
+      priority
+      className="next-image logo"
+    />
+    <Image
+      src="/logos/style_gpt.png"
+      alt="stylegpt logo"
+      width={150}
+      height={150}
+      priority
+      className="next-image logo"
+    />
+</div>
 
 I enjoy crafting interactive, functional, accessible and aesthetically appealing websites and applications.  
  
@@ -16,15 +55,51 @@ My primary interests are walking, reading (philosophy, natural sciences, technol
 
 ---
 <div>
-  <div class='logo-div'>
-
-  [![Twitter Logo](public/logos/twitter250.png)](https://twitter.com/njhuemmer)
+  <div class='logo-div social'>
+    <a href="https://twitter.com/njhuemmer">
+      <Image
+      src="/logos/twitter250.svg"
+      alt="twitter logo"
+      width={75}
+      height={75}
+      priority
+      className="next-image logo"
+      />
+    </a>
+    <a href="https://github.com/ElDuke717">
+      <Image
+      src="/logos/github250.svg"
+      alt="github logo"
+      width={75}
+      height={75}
+      priority
+      className="next-image logo"
+      />
+    </a>
+    <br />
+    <a href="https://www.linkedin.com/in/nickjhuemmer/">
+      <Image
+      src="/logos/linkedin250.svg"
+      alt="linkedin logo"
+      width={75}
+      height={75}
+      priority
+      className="next-image logo"
+      />
+    </a>
   <br />
-  [![GitHub Logo](public/logos/github250.png)](https://github.com/ElDuke717)
-  <br />
-  [![LinkedIn Logo](public/logos/linkedin250.png)](https://www.linkedin.com/in/nickjhuemmer/)
-  <br />
-  [![Medium Logo](public/logos/medium250.png)](https://medium.com/@njhuemmer)
+  <a href="https://medium.com/@njhuemmer">
+      <Image
+      src="/logos/medium250.png"
+      alt="medium logo"
+      width={75}
+      height={75}
+      priority
+      className="next-image logo"
+      />
+    </a>
+    <br />
   </div>
+
   hello@nickhuemmer.me
 </div>
