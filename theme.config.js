@@ -9,7 +9,7 @@ export default {
       </small>
       <style jsx>{`
         footer {
-          margin-top: 8rem;
+          margin-top: 4 rem;
         }
         a {
           float: right;

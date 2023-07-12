@@ -6,7 +6,9 @@ tag: web development
 author: You
 ---
 
-# Next.js Pages
+# About Next.js Pages
+
+_I'm leaving this article in my blog since it's handy and shows all the cool stuff you can do with Next.js._
 
 In Next.js, a **page** is a [React Component](https://react.dev/reference/react/Component) exported from a `.js`, `.jsx`, `.ts`, or `.tsx` file in the `pages` directory. Each page is associated with a route based on its file name.
 

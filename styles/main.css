@@ -75,6 +75,11 @@ img.next-image {
   border-radius: 5px;
 }
 
+img.next-image.photo {
+  margin-bottom: 100px;
+  border-radius: 5px;
+}
+
 img.next-image.logo  {
   margin-left: 10px;
   margin-right: 10px;
@@ -98,4 +103,8 @@ img.next-image.logo  {
 
 .logo-div.social {
   margin-bottom: 2rem;
+}
+
+.email-link {
+  font-size: 1.5rem;
 }
