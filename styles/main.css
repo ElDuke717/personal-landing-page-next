@@ -25,23 +25,21 @@ body {
   font-variant: common-ligatures contextual;
   letter-spacing: -0.02em;
   background-image: linear-gradient(
-    30deg,
-    hsl(240deg 91% 4%) 0%,
-    hsl(238deg 94% 6%) 7%,
-    hsl(237deg 90% 8%) 14%,
-    hsl(235deg 92% 10%) 22%,
-    hsl(235deg 93% 12%) 30%,
-    hsl(236deg 94% 13%) 38%,
-    hsl(237deg 97% 13%) 46%,
-    hsl(238deg 97% 14%) 53%,
-    hsl(239deg 98% 16%) 61%,
-    hsl(239deg 98% 18%) 68%,
-    hsl(239deg 100% 19%) 74%,
-    hsl(238deg 100% 22%) 81%,
-    hsl(234deg 100% 25%) 88%,
-    hsl(231deg 99% 29%) 94%,
-    hsl(228deg 99% 33%) 100%
-  );;
+  45deg,
+  hsl(240deg 100% 1%) 0%,
+  hsl(240deg 100% 2%) 25%,
+  hsl(240deg 100% 3%) 44%,
+  hsl(240deg 100% 4%) 58%,
+  hsl(240deg 82% 10%) 70%,
+  hsl(234deg 100% 14%) 79%,
+  hsl(240deg 100% 19%) 86%,
+  hsl(240deg 100% 19%) 92%,
+  hsl(240deg 100% 19%) 95%,
+  hsl(240deg 100% 19%) 98%,
+  hsl(240deg 100% 21%) 100%,
+  hsl(240deg 100% 23%) 100%,
+  hsl(240deg 100% 26%) 100%
+);
 }
 b,
 strong,
@@ -97,7 +95,7 @@ img.next-image.logo  {
 .logo-div{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   margin-bottom: 1rem;
 }
 
@@ -105,6 +103,18 @@ img.next-image.logo  {
   margin-bottom: 2rem;
 }
 
+.logo-div.product{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
 .email-link {
   font-size: 1.5rem;
+}
+
+.app {
+  margin: 50px auto;
 }

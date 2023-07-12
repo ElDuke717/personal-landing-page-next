@@ -1,7 +1,7 @@
 ---
 type: posts
-title: Posts
+title: posts
 date: 2021-03-18
 ---
 
-# Posts
+# posts
