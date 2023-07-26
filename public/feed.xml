@@ -4,7 +4,22 @@
         <description><![CDATA[Your Name]]></description>
         <link>https://yoursite.com</link>
         <generator>RSS for Node</generator>
-        <lastBuildDate>Tue, 25 Jul 2023 20:01:29 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 26 Jul 2023 00:54:58 GMT</lastBuildDate>
         <atom:link href="https://yoursite.com/feed.xml" rel="self" type="application/rss+xml"/>
+        <item>
+            <title><![CDATA[Binary Search Tree Depth First Traversal]]></title>
+            <description><![CDATA[An introduction to binary search trees and depth first traversal.]]></description>
+            <link>/posts/bst-depth_first</link>
+            <guid isPermaLink="true">/posts/bst-depth_first</guid>
+            <category><![CDATA[JavaScript]]></category>
+            <category><![CDATA[data structures]]></category>
+            <category><![CDATA[binary search tree]]></category>
+            <category><![CDATA[depth first]]></category>
+            <category><![CDATA[recursion]]></category>
+            <category><![CDATA[stack]]></category>
+            <category><![CDATA[pop]]></category>
+            <dc:creator><![CDATA[Nick Huemmer]]></dc:creator>
+            <pubDate>Mon, 10 Jul 2023 04:00:00 GMT</pubDate>
+        </item>
     </channel>
 </rss>
